@@ -1,0 +1,20 @@
+{
+  "name": "agent-skills-for-devlifecycle-lab",
+  "version": "1.0.0",
+  "description": "A local CLI task manager — practice project for the full spec→plan→build→test→review→simplify→ship lifecycle using agent-skills",
+  "main": "src/index.js",
+  "bin": {
+    "task-cli": "./src/index.js"
+  },
+  "scripts": {
+    "test": "jest --passWithNoTests",
+    "test:coverage": "jest --coverage"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "devDependencies": {
+    "jest": "^30.5.2"
+  }
+}
